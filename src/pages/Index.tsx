@@ -226,11 +226,11 @@ const Index = () => {
                 Свяжитесь с нами, и мы подберём удобное время, привезём баню и подготовим всё для вашего отдыха.
               </p>
               <div className="space-y-4">
-                <a href="tel:+70000000000" className="flex items-center gap-4 group">
+                <a href="tel:+79208019257" className="flex items-center gap-4 group">
                   <div className="w-12 h-12 rounded-xl bg-primary-foreground/10 flex items-center justify-center group-hover:bg-accent transition-colors">
                     <Icon name="Phone" size={20} />
                   </div>
-                  <span className="text-lg font-medium">+7 (000) 000-00-00</span>
+                  <span className="text-lg font-medium">+7 (920) 801-92-57</span>
                 </a>
                 <a href="mailto:hello@banya.ru" className="flex items-center gap-4 group">
                   <div className="w-12 h-12 rounded-xl bg-primary-foreground/10 flex items-center justify-center group-hover:bg-accent transition-colors">
