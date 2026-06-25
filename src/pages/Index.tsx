@@ -3,7 +3,7 @@ import Icon from '@/components/ui/icon';
 import { Button } from '@/components/ui/button';
 
 const HERO_IMG = 'https://cdn.poehali.dev/projects/85cf5a33-8da8-44c4-bc63-f4f5f796aa14/bucket/af1f3157-1a87-4bc1-84d5-5d7ca8d35188.jpg';
-const INTERIOR_IMG = 'https://cdn.poehali.dev/projects/85cf5a33-8da8-44c4-bc63-f4f5f796aa14/files/99938235-f951-472a-b6e6-018ce0ccf767.jpg';
+const INTERIOR_IMG = 'https://cdn.poehali.dev/projects/85cf5a33-8da8-44c4-bc63-f4f5f796aa14/bucket/4e8164ed-8896-427b-93ad-cd8f411ce467.jpg';
 
 const nav = [
   { id: 'about', label: 'О бане' },
@@ -26,7 +26,14 @@ const features = [
   { icon: 'MapPin', title: 'Где угодно', text: 'У дома, на даче, у озера или в лесу' },
 ];
 
-const gallery = [HERO_IMG, INTERIOR_IMG, HERO_IMG, INTERIOR_IMG];
+const gallery = [
+  HERO_IMG,
+  'https://cdn.poehali.dev/projects/85cf5a33-8da8-44c4-bc63-f4f5f796aa14/bucket/2753a49a-53e6-4cfd-88d2-199b57ce5891.jpg',
+  'https://cdn.poehali.dev/projects/85cf5a33-8da8-44c4-bc63-f4f5f796aa14/bucket/a24f32c3-80ab-4294-b69e-daa2cb6b3157.jpg',
+  INTERIOR_IMG,
+  'https://cdn.poehali.dev/projects/85cf5a33-8da8-44c4-bc63-f4f5f796aa14/bucket/e3622312-d76d-4c93-877c-d2c1d9aedd80.jpg',
+  'https://cdn.poehali.dev/projects/85cf5a33-8da8-44c4-bc63-f4f5f796aa14/bucket/bdace7db-438e-4f63-8295-2bc5a2b9119c.jpg',
+];
 
 const reviews = [
   { name: 'Анна и Сергей', text: 'Заказывали баню на дачу — впечатления невероятные! Привезли, установили, всё растопили. Пар мягкий, дерево пахнет потрясающе.', stars: 5 },
