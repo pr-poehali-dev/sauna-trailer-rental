@@ -232,6 +232,12 @@ const Index = () => {
                   </div>
                   <span className="text-lg font-medium">+7 (920) 801-92-57</span>
                 </a>
+                <a href="tel:+79208126165" className="flex items-center gap-4 group">
+                  <div className="w-12 h-12 rounded-xl bg-primary-foreground/10 flex items-center justify-center group-hover:bg-accent transition-colors">
+                    <Icon name="Phone" size={20} />
+                  </div>
+                  <span className="text-lg font-medium">+7 (920) 812-61-65</span>
+                </a>
                 <a href="https://max.ru/+79208019257" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group">
                   <div className="w-12 h-12 rounded-xl bg-primary-foreground/10 flex items-center justify-center group-hover:bg-accent transition-colors">
                     <Icon name="MessageCircle" size={20} />
