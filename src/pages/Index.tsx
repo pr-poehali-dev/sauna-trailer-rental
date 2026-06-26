@@ -254,7 +254,7 @@ const Index = () => {
                   <div className="w-12 h-12 rounded-xl bg-primary-foreground/10 flex items-center justify-center">
                     <Icon name="Clock" size={20} />
                   </div>
-                  <span className="text-lg font-medium">Ежедневно, 24/7</span>
+                  <span className="text-lg font-medium">Ежедневно</span>
                 </div>
               </div>
             </div>
